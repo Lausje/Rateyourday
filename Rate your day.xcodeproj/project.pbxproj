@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39A74621EF68D64006AAD8E /* VragenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A74611EF68D64006AAD8E /* VragenViewController.swift */; };
 		D3DE9F9D1EF53EC000D407FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE9F9C1EF53EC000D407FF /* AppDelegate.swift */; };
-		D3DE9F9F1EF53EC000D407FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE9F9E1EF53EC000D407FF /* ViewController.swift */; };
 		D3DE9FA21EF53EC000D407FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DE9FA01EF53EC000D407FF /* Main.storyboard */; };
 		D3DE9FA51EF53EC000D407FF /* Rate_your_day.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3DE9FA31EF53EC000D407FF /* Rate_your_day.xcdatamodeld */; };
 		D3DE9FA71EF53EC000D407FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DE9FA61EF53EC000D407FF /* Assets.xcassets */; };
 		D3DE9FAA1EF53EC000D407FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DE9FA81EF53EC000D407FF /* LaunchScreen.storyboard */; };
+		D3DE9FB21EF55DCD00D407FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE9FB11EF55DCD00D407FF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D39A74611EF68D64006AAD8E /* VragenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VragenViewController.swift; sourceTree = "<group>"; };
 		D3DE9F991EF53EC000D407FF /* Rate your day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rate your day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DE9F9C1EF53EC000D407FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3DE9F9E1EF53EC000D407FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3DE9FA11EF53EC000D407FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3DE9FA41EF53EC000D407FF /* Rate_your_day.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rate_your_day.xcdatamodel; sourceTree = "<group>"; };
 		D3DE9FA61EF53EC000D407FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DE9FA91EF53EC000D407FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3DE9FAB1EF53EC000D407FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DE9FB11EF55DCD00D407FF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D3DE9F9C1EF53EC000D407FF /* AppDelegate.swift */,
-				D3DE9F9E1EF53EC000D407FF /* ViewController.swift */,
 				D3DE9FA01EF53EC000D407FF /* Main.storyboard */,
+				D3DE9FB11EF55DCD00D407FF /* SettingsViewController.swift */,
+				D39A74611EF68D64006AAD8E /* VragenViewController.swift */,
 				D3DE9FA61EF53EC000D407FF /* Assets.xcassets */,
 				D3DE9FA81EF53EC000D407FF /* LaunchScreen.storyboard */,
 				D3DE9FAB1EF53EC000D407FF /* Info.plist */,
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DE9F9F1EF53EC000D407FF /* ViewController.swift in Sources */,
 				D3DE9F9D1EF53EC000D407FF /* AppDelegate.swift in Sources */,
 				D3DE9FA51EF53EC000D407FF /* Rate_your_day.xcdatamodeld in Sources */,
+				D3DE9FB21EF55DCD00D407FF /* SettingsViewController.swift in Sources */,
+				D39A74621EF68D64006AAD8E /* VragenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 				D3DE9FB01EF53EC000D407FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
